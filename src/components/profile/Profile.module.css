@@ -1,0 +1,38 @@
+img {
+  width: 250px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 2vw;
+  background: linear-gradient(to right, #9b3c41 0%, #062068 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  border: 1px solid #17a0a0;
+  padding: 3vh;
+  margin: auto;
+  margin-top: 15px;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.profession {
+  writing-mode: vertical-lr;
+  color: #9b3c41;
+}
+
+.infoDiv {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bio {
+  opacity: 0.5;
+}
